@@ -17,7 +17,7 @@ public class GoogleTest {
     }
 
     @Test
-    void successfulSearchTest() {
+    void googleTest() {
         open("https://google.com/");
     }
 }
