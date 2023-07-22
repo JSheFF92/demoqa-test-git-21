@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class SearchTests {
+public class GoogleTest {
 
     static {
         ChromeOptions options = new ChromeOptions();
