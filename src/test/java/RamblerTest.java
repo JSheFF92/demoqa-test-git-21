@@ -1,4 +1,5 @@
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -15,5 +16,7 @@ public class RamblerTest {
 
     @Test
     void ramblerTest() {
+        Configuration.pageLoadStrategy = "eager";
+        Selenide.open("https://www.rambler.ru/");
     }
 }

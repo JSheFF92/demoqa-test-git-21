@@ -18,6 +18,7 @@ public class GoogleTest {
 
     @Test
     void googleTest() {
+        Configuration.pageLoadStrategy = "eager";
         open("https://google.com/");
     }
 }
